@@ -1,0 +1,20 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6    # [standard] includes websocket support
+
+# Data validation
+pydantic[email]==2.8.2
+
+# Authentication
+PyJWT==2.9.0
+
+# LangChain core
+langchain==0.3.1
+langchain-community==0.3.1
+langchain-ollama==0.2.0      # connects LangChain to Qwen2.5 via Ollama
+
+# Vector store
+chromadb==0.5.11
+
+# PDF reading
+pypdf==4.3.1
